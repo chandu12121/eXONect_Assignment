@@ -7,7 +7,7 @@ const App = () => {
 
     return (
         <div className="app-container">
-            <h1 className="app-title">🌍 Country Management</h1>
+            <h1 className="app-title">🌍 Country, State, City Management</h1>
             <CountryList countries={countries} setCountries={setCountries} />
         </div>
     );
